@@ -1,6 +1,8 @@
 # UK/ EU Cookie Notice Magento Module
 
-This extension displays a fully customisable message for your Magento website to comply with the EU cookie law.
+> "Implied consent is a valid form of consent and can be used in the context of compliance with the revised rules on cookies." - ICO Website
+
+The Information Commissioner's Office stated that 'implied consent' is sufficient to comply with the EU Cookie Law. Now, you do not have to use other Magento Cookie Law extensions that make you wait for your visitors to agree to be tracked before you can get any Analytics data from them. Use this Cookie Law extension to show your visitors that by using your website, they permit you to set cookies in their browser. This extension displays a fully customisable message for your Magento website to comply with the EU cookie law.
 
 http://www.magentocommerce.com/magento-connect/eu-cookie-law-compliance-implied-consent.html
 
