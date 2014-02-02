@@ -4,7 +4,7 @@ This extension displays a fully customisable message for your Magento website to
 
 http://www.magentocommerce.com/magento-connect/eu-cookie-law-compliance-implied-consent.html
 
-[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YNKF9CGE3V5HJ)
+[![Donate](https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YNKF9CGE3V5HJ)
 
 ## 1. Installation
 
