@@ -28,9 +28,9 @@ class Optimiseweb_CookieNotice_Block_Notice extends Mage_Core_Block_Template
     public function isEnabled()
     {
         if (Mage::getStoreConfig('optimisewebcookienotice/general/enabled') == 1) {
-            if ((Mage::getModel('core/cookie')->get('ow_cookie_notice') == 'closed') OR (Mage::getModel('core/cookie')->get('ow_cookie_notice') == 'hidden')) {
+            if ((Mage::getModel('core/cookie')->get('ow_cookie_notice') == 'closed') OR ( Mage::getModel('core/cookie')->get('ow_cookie_notice') == 'hidden')) {
                 return FALSE;
-            } elseif (!$this->isPersistent() AND (Mage::getModel('core/cookie')->get('ow_cookie_notice') == 'shown')) {
+            } elseif (!$this->isPersistent() AND ( Mage::getModel('core/cookie')->get('ow_cookie_notice') == 'shown')) {
                 return FALSE;
             }
             return TRUE;
@@ -98,7 +98,7 @@ class Optimiseweb_CookieNotice_Block_Notice extends Mage_Core_Block_Template
      */
     public function isTopBar()
     {
-        if ((Mage::getStoreConfig('optimisewebcookienotice/appearance/type') == 'bar') AND (Mage::getStoreConfig('optimisewebcookienotice/appearance/position_bar') == 'top')) {
+        if ((Mage::getStoreConfig('optimisewebcookienotice/appearance/type') == 'bar') AND ( Mage::getStoreConfig('optimisewebcookienotice/appearance/position_bar') == 'top')) {
             return TRUE;
         }
         return FALSE;

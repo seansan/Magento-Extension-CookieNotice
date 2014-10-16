@@ -8,6 +8,27 @@
 */
 -->
 <config>
+    
+    <menu>
+        <optimiseweball translate="title" module="cookienotice">
+            <title>Optimise Web</title>
+            <sort_order>71</sort_order>
+            <children>
+                <cookienotice translate="title" module="cookienotice">
+                    <title>Cookie Notice Settings</title>
+                    <sort_order>5</sort_order>
+                    <action>adminhtml/system_config/edit/section/optimisewebcookienotice</action>
+                    <depends>
+                        <config>optimisewebcookienotice/menu/cookienotice_enabled</config>
+                    </depends>
+                </cookienotice>
+            </children>
+            <depends>
+                <config>optimisewebcookienotice/menu/optimiseweball_enabled</config>
+            </depends>
+        </optimiseweball>
+    </menu>
+        
     <acl>
         <resources>
             <all>
