@@ -28,6 +28,7 @@ class Optimiseweb_CookieNotice_Block_Notice extends Mage_Core_Block_Template
     public function isEnabled()
     {
         if (Mage::getStoreConfig('optimisewebcookienotice/general/enabled') == 1) {
+            if(isset($_GET['show-cookienotice'])) { return TRUE; } // for debugging
             if ((Mage::getModel('core/cookie')->get('ow_cookie_notice') == 'closed') OR ( Mage::getModel('core/cookie')->get('ow_cookie_notice') == 'hidden')) {
                 return FALSE;
             } elseif (!$this->isPersistent() AND ( Mage::getModel('core/cookie')->get('ow_cookie_notice') == 'shown')) {
