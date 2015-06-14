@@ -237,6 +237,7 @@ class Optimiseweb_CookieNotice_Block_Notice extends Mage_Core_Block_Template
      */
     public function isAutoHide()
     {
+        if(isset($_GET['show-cookienotice'])) { return false; }
         return (bool) Mage::getStoreConfig('optimisewebcookienotice/behaviour/autohide');
     }
 
